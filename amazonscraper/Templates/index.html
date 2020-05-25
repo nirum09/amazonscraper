@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Enter input</title>
+
+</head>
+<body>
+<form action="/search/" method="post" class="form-container">{% csrf_token %}
+<input type="text" name="content">
+<input type="submit" value="Search">
+</form>
+<p><link href="{{URL}}">{{URL}}</p>
+
+</body>
+</html>
