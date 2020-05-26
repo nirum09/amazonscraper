@@ -7,7 +7,7 @@
 
 import scrapy
 from scrapy_djangoitem import DjangoItem
-from amazonscraper.amazonproduct import models
+from amazonproduct import models
 
 class ScraperItem(DjangoItem):
     # define the fields for your item here like:

@@ -2,3 +2,7 @@
 #
 # Please refer to the documentation for information on how to create and manage
 # your spiders.
+
+# from .amazon import AmazonSpider
+
+# __all__=['AmazonSpider']
